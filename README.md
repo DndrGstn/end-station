@@ -2,9 +2,11 @@
 ### Pages / Components
 
 Main Game Page – Displays the clues, input field for guesses, score, and buttons for game control.
+
 <img width="1919" height="1079" alt="Screenshot 2026-02-19 103014" src="https://github.com/user-attachments/assets/57026e09-38a1-41d4-aeb4-d062ec9413dd" />
 
 Rules Popup – Accessible via a button in the top-right corner, explains the game rules.
+
 <img width="1917" height="1079" alt="Screenshot 2026-02-19 103034" src="https://github.com/user-attachments/assets/bb1ba815-c8dc-45af-bbe3-fd1a9578932e" />
 
 Audio – Background train music and horn sound effects triggered during gameplay.
@@ -59,6 +61,7 @@ Font: Arial
 Reason: Simple, readable, and works well with the game’s vibrant colors.
 
 Colour Scheme
+
 <img width="95" height="254" alt="Screenshot 2026-02-19 101534" src="https://github.com/user-attachments/assets/3aa18767-a129-4f09-8481-0e9ff8767563" />
 
 Game background: #a02613
@@ -69,13 +72,14 @@ Buttons: #a02613 with white text
 
 Text: White for readability
 
-Features and Navigation
 
 ### Game Controls:
 
 Start Game – Begins the game, starts train audio and clue timer
 
 Next Clue – Reveals the next clue
+
+<img width="407" height="112" alt="Screenshot 2026-02-19 103513" src="https://github.com/user-attachments/assets/3ff339dc-725a-40d5-ade8-887aa8b991f4" />
 
 Submit Guess – Checks player’s answer and updates the score
 
@@ -84,6 +88,8 @@ STOP – Pauses the game, plays horn, enables input
 ### Rules Popup:
 
 Explains how to play the game
+
+<img width="1917" height="1079" alt="Screenshot 2026-02-19 103034" src="https://github.com/user-attachments/assets/be67ca4c-5e1d-4969-a194-7ebe1b0a1b59" />
 
 Can be opened or closed at any time
 
@@ -95,7 +101,8 @@ Background image scales and crops correctly on smaller screens
 
 ### Audio Effects:
 
-Background train sound
+Song from show that plays during question:
+københavn jernbane damp galop
 
 Horn sound on stop
 
