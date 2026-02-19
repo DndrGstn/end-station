@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Page title shown in the browser tab -->
+    <title>On Track?!</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link to external JavaScript file (defer ensures it loads after HTML) -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Audio element for the horn sound effect -->
+    <!-- Autoplay makes it load automatically (can be restricted by some browsers) -->
+    <audio src="./Horn.mp3" autoplay id="horn"></audio>
+
+    <!-- Background train sound effect -->
+    <audio src="./tåg.mp3" autoplay id="train"></audio>
+
+    <!-- Main game container -->
+    <div class="game">
+
+        <!-- Main game heading -->
+        <h2>Where are we going?</h2>
+
+        <!-- Box that displays clues and countdown -->
+        <div id="clueBox">
+
+            <!-- Text where clues will appear dynamically -->
+            <p id="clueText">Press start to begin!</p>
+
+            <!-- Countdown timer display -->
+            <p id="countdown"></p>
+        </div>
+
+        <!-- Input field for player guess -->
+        <!-- Disabled at start to prevent guessing before game begins -->
+        <input type="text" id="guessInput" placeholder="Enter your guess here" disabled>
+
+        <!-- Button container -->
+        <div class="buttons">
+
+            <!-- Starts the game -->
+            <button onclick="startGame()">Start Game</button>
+
+            <!-- Shows the next clue -->
+            <button onclick="nextClue()">Next Clue</button>
+
+            <!-- Checks the player’s answer -->
+            <button onclick="checkAnswer()">Submit Guess</button>
+
+            <!-- Stops the train and allows guessing -->
+            <button onclick="stopanswer()">STOP</button>
+        </div>
+
+        <!-- Displays result message (correct / incorrect) -->
+        <p id="result"></p>
+
+        <!-- Displays player score -->
+        <p id="score"></p>
+    </div>
+
+    <!-- Button to open the rules modal -->
+    <button id="rulesBtn">Rules</button>
+
+    <!-- Modal popup containing game rules -->
+    <div id="rulesModal">
+
+        <!-- Modal content container -->
+        <div id="rulesContent">
+
+            <!-- Close button (× symbol) -->
+            <span id="closeRules">&times;</span>
+
+            <!-- Description of the TV show inspiration -->
+            <h3>
+                “På spåret” (which means “On the Track”) is a popular Swedish TV quiz show.
+
+                Two teams compete against each other.
+
+                They are “traveling” by train across the world (virtually).
+
+                Each team is given clues about a city or country.
+
+                They get points for guessing the correct place — the earlier they guess, the more points they get.
+
+                The show combines geography, culture, and trivia with a fun travel theme.
+
+                Think of it as a mix between a geography quiz and a travel game.
+            </h3>
+
+            <!-- Game rules heading -->
+            <h4>Game Rules</h4>
+
+            <!-- List of gameplay instructions -->
+            <ul>
+                <li>Press Start Game to begin.</li>
+                <li>One clue is shown at a time.</li>
+                <li>Press STOP to stop the train and enter your guess.</li>
+                <li>You get fewer points for each additional clue.</li>
+                <li>Have fun!</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

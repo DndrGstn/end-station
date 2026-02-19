@@ -1,0 +1,176 @@
+/* 
+   Styles applied to the entire page
+   Sets background image, font, layout, and base styling
+*/
+body {
+    /* Background image */
+    background-image: url(./luukolind.jpg);
+
+    /* Makes the image cover the entire screen */
+    background-size: cover;
+
+    /* Keeps image centered */
+    background-position: center;
+
+    /* Prevents image from repeating */
+    background-repeat: no-repeat;
+
+    /* Font styling */
+    font-family: Arial, sans-serif;
+
+    /* Default text color */
+    color: white;
+
+    /* Centers all text */
+    text-align: center;
+
+    /* Adds space around content */
+    padding: 40px 20px;
+
+    /* Removes default browser margin */
+    margin: 0;
+
+    /* Ensures full screen height */
+    min-height: 100vh;
+}
+
+/* Main game container styling */
+.game {
+    /* Background color of game box */
+    background: #a02613;
+
+    /* Inner spacing */
+    padding: 30px;
+
+    /* Rounded corners */
+    border-radius: 15px;
+
+    /* Fixed width for desktop */
+    width: 400px;
+
+    /* Centers the box horizontally */
+    margin: auto;
+}
+
+/* Clue display box styling */
+#clueBox {
+    background: #45271f;
+    /* Darker contrast background */
+    padding: 20px;
+    /* Inner spacing */
+    margin: 20px 0;
+    /* Space above and below */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Input field styling */
+input {
+    padding: 10px;
+    /* Inner spacing */
+    width: 80%;
+    /* Responsive width */
+    margin-bottom: 15px;
+    /* Space below input */
+}
+
+/* General button styling */
+button {
+    padding: 10px 15px;
+    /* Inner spacing */
+    margin: 5px;
+    /* Space between buttons */
+    border: none;
+    /* Removes default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Changes cursor to pointer */
+}
+
+/* Button hover effect */
+button:hover {
+    opacity: 0.8;
+    /* Slight transparency on hover */
+}
+
+
+/* Rules button (top right corner) */
+#rulesBtn {
+    position: fixed;
+    /* Stays fixed on screen */
+    top: 20px;
+    /* Distance from top */
+    right: 20px;
+    /* Distance from right */
+
+    padding: 10px 15px;
+    background: #a02613;
+    /* Matches game theme */
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+
+    z-index: 1000;
+    /* Ensures button stays above other elements */
+}
+
+/* Hover effect for rules button */
+#rulesBtn:hover {
+    opacity: 0.8;
+}
+
+
+/* Modal background (overlay) */
+#rulesModal {
+    display: none;
+    /* Hidden by default */
+
+    position: fixed;
+    /* Covers entire screen */
+    z-index: 999;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+    /* Enables scroll if content is too large */
+
+    /* Dark semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Modal content box */
+#rulesContent {
+    background-color: #45271f;
+    /* Same dark theme */
+    margin: 10% auto;
+    /* Center vertically */
+    padding: 20px;
+    width: 300px;
+    /* Fixed width */
+    border-radius: 10px;
+
+    position: relative;
+    /* Needed for absolute close button */
+    color: white;
+}
+
+
+/* Close (X) button inside modal */
+#closeRules {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
