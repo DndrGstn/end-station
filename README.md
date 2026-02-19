@@ -118,6 +118,8 @@ GitHub – Version control and deployment via GitHub Pages
 
 ChatGPT – Assistance and guidance
 
+https://developer.mozilla.org/en-US/ - smaller fixes and help with javascript
+
 ### Testing
 
 Browser Testing:
@@ -157,6 +159,8 @@ Click “Start Game” to begin
 Use “Next Clue” and “Submit Guess” buttons as the game progresses
 
 Click “STOP” to pause and play horn
+
+<img width="453" height="194" alt="Screenshot 2026-02-19 115539" src="https://github.com/user-attachments/assets/d8b3179b-dc50-42bd-abe2-9f037b307661" />
 
 ### Credits
 
