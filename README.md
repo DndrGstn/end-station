@@ -146,6 +146,13 @@ I experienced issues with the game restarting every time the “Start Game” bu
 
 Input field disabled/enabled correctly to prevent guessing at wrong times
 
+### Verification
+
+HTML
+<img width="1580" height="658" alt="Screenshot 2026-02-19 102546" src="https://github.com/user-attachments/assets/18a80ab9-f6df-4475-8582-d966b88126ce" />
+CSS
+<img width="836" height="675" alt="Screenshot 2026-02-19 102638" src="https://github.com/user-attachments/assets/9a274b51-1a14-45f7-b8c8-b45fe50196da" />
+
 ### Deployment
 
 Hosted on: GitHub Pages
