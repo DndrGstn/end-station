@@ -156,6 +156,11 @@ HTML
 
 <img width="836" height="675" alt="Screenshot 2026-02-19 102638" src="https://github.com/user-attachments/assets/9a274b51-1a14-45f7-b8c8-b45fe50196da" />
 
+Lightroom
+
+<img width="1896" height="921" alt="Screenshot 2026-02-19 022547" src="https://github.com/user-attachments/assets/14bf32a8-1c30-4c93-8dfe-4f00eb3ef04e" />
+
+
 ### Deployment
 
 Hosted on: GitHub Pages
